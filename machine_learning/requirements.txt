@@ -1,0 +1,16 @@
+# Data Science & Machine Learning
+pandas>=3.0.0
+numpy>=2.4.0
+scikit-learn>=1.8.0
+scipy>=1.17.0
+
+# Visualization
+matplotlib>=3.10.0
+plotly>=5.0.0
+
+# Data Loading
+kagglehub>=1.0.0
+
+# Utilities
+jupyter>=1.0.0
+ipython>=9.0.0
