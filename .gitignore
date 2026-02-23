@@ -1,1 +1,22 @@
-".venv" 
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos sensibles / temporales
+*.log
+*.tmp
+
+# IDEs
+.vscode/
+.idea/
