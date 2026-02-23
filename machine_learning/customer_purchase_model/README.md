@@ -26,7 +26,7 @@ customer_purchase_model/
 ├── data/
 │   └── Customer Purchasing Behaviors.csv    # Dataset con 238 clientes
 ├── notebooks/
-│   └── Ejercicios.ipynb              # Notebook con análisis completo
+│   └── customer_classification.ipynb # Notebook con análisis completo
 └── src/
     └── (modelos y utilidades)
 ```
