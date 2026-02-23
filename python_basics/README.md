@@ -10,6 +10,7 @@ Colección de ejercicios y proyectos iniciales para aprender Python, incluyendo 
 |---------|-------------|------|
 | `clase en python.ipynb` | Conceptos básicos del lenguaje | Fundamentos |
 | `test de librerias.ipynb` | Pruebas de librerías y funcionalidades | Testing |
+| `find_duplicates.py` | Primer duplicado en lista: solución O(n) vs O(n²) | Algoritmos / Entrevistas |
 | `ejemplo_blockchain.ipynb` | Implementación educativa de blockchain | Criptografía |
 | `Ejemplo_Blockchain.py` | Versión en script de blockchain | Criptografía |
 | `ejemplo_de_minado.py` | Simulación de minería (Proof of Work) | Algoritmos |
@@ -29,7 +30,7 @@ Colección de ejercicios y proyectos iniciales para aprender Python, incluyendo 
 - **Blockchain:** Hash, merkle trees, cadena de bloques
 - **Web Scraping:** Descarga y procesamiento de datos web
 - **Análisis de Datos:** Pandas, numpy para análisis epidemiológico
-- **Algoritmos:** Proof of Work, minería simulada
+- **Algoritmos:** Proof of Work, minería simulada, búsqueda de duplicados
 
 ## 📁 Estructura
 
@@ -38,6 +39,7 @@ python_basics/
 ├── README.md                      # Este archivo
 ├── clase en python.ipynb
 ├── test de librerias.ipynb
+├── find_duplicates.py
 ├── ejemplo_blockchain.ipynb
 ├── Ejemplo_Blockchain.py
 ├── ejemplo_de_minado.py
@@ -102,6 +104,14 @@ Descarga de matriz de precios de producción eléctrica (OMIE):
 - Almacenamiento
 
 **Archivos:** `Descarga_Matriz_OMIE_SQ.py`
+
+### 🔍 Primer Duplicado en Lista
+Ejercicio típico de entrevistas técnicas: encontrar el primer número que se repite en una lista sin usar `collections.Counter`.
+- Solución óptima O(n) usando `set()`
+- Comparativa con solución O(n²) usando lista
+- Explicación de hashabilidad en Python
+
+**Archivos:** `find_duplicates.py`
 
 ## 📈 Progresión de Aprendizaje
 
