@@ -1,104 +1,43 @@
-# 📚 Portfolio de Programación & Data Science
+# Portfolio de Programación — Pablo
 
-Colección de proyectos en Python cubriendo desde lo básico hasta Machine Learning aplicado. Estos proyectos demuestran habilidades en análisis de datos, modelado predictivo, y programación orientada a problemas reales.
-
-## 🎯 Visión General
-
-Este portfolio contiene tres áreas principales de estudio y desarrollo:
-
-### 📊 Machine Learning
-Proyectos aplicados en predicción y análisis de patrones de comportamiento.
-
-### 🔬 Física Computacional
-Notas y visualizaciones de conceptos avanzados de mecánica cuántica.
-
-### 🐍 Fundamentos de Python
-Base sólida en programación Python con aplicaciones prácticas.
+Proyectos en Python desarrollados en el ámbito profesional y personal, con foco en el sector eléctrico español y análisis de datos.
 
 ---
 
-## 📁 Estructura del Proyecto
+## ⚡ Mercado Eléctrico — Herramientas de Facturación e Indexación
 
-```
-Portfolio/
-├── README.md                                         # Este archivo
-├── requirements.txt                                  # Dependencias globales
-│
-├── machine_learning/                                 # 📊 Proyectos ML
-│   ├── requirements.txt
-│   ├── customer_purchase_model/
-│   │   ├── README.md
-│   │   ├── data/
-│   │   │   └── Customer Purchasing Behaviors.csv
-│   │   ├── notebooks/
-│   │   │   └── Ejercicios.ipynb
-│   │   └── src/
-│
-├── physics/                                          # 🔬 Física
-│   ├── README.md
-│   └── mec_cuantica.ipynb
-│
-└── python_basics/                                    # 🐍 Fundamentos
-    ├── README.md
-    ├── requirements.txt
-    └── [múltiples archivos ejercicios]
-```
+Herramientas desarrolladas en un entorno profesional real para automatizar procesos de facturación de contratos indexados a mercado. Cubren desde la descarga de precios de mercado hasta el cálculo de servicios de ajuste a partir de liquidaciones oficiales de REE.
+
+| Programa | Descripción |
+|---|---|
+| `Descarga_Matriz_OMIE_SQ.py` | Descarga y construye la matriz mensual de precios cuartohorarios desde OMIE |
+| `expansion_precios_horario_cuartohorario.py` | Transforma precios horarios a cuartohorario tras el cambio regulatorio de oct. 2024 |
+| `calculo_prdemcad_liquidacion_c2.ipynb` | Calcula el PRDEMCAD completo desde ficheros C2 de REE con control de coherencia |
+
+[Ver carpeta →](energia_electrica/)
 
 ---
 
-## 🚀 Comenzar Rápidamente
+## 📊 Machine Learning
 
-### 1️⃣ Instalar dependencias
-```bash
-pip install -r requirements.txt
-```
+Pipeline de clasificación para predecir el comportamiento de compra de clientes, con análisis exploratorio, preprocesamiento y regresión logística.
 
-### 2️⃣ O por proyecto
-```bash
-cd machine_learning
-pip install -r requirements.txt
-```
-
-### 3️⃣ Ejecutar un proyecto
-```bash
-jupyter notebook machine_learning/customer_purchase_model/notebooks/Ejercicios.ipynb
-```
+[Ver carpeta →](machine_learning/)
 
 ---
 
-## 📋 Proyectos
+## 🐍 Python — Fundamentos y Ejercicios
 
-### 🛍️ Customer Purchase Model
-**Estado:** ✅ Completado  
-Pipeline ML para predecir clientes compradores frecuentes
+Proyectos de base: blockchain, web scraping, análisis de datos y estructuras de datos.
 
-**Habilidades:** EDA, Preprocesamiento, Regresión Logística, Evaluación de Modelos
-
-[Ver detalles →](machine_learning/customer_purchase_model/README.md)
-
-### 🔬 Mecánica Cuántica
-**Estado:** ✅ Notas disponibles  
-Conceptos fundamentales con fórmulas matemáticas
-
-[Ver detalles →](physics/README.md)
-
-### 🐍 Python Basics
-**Estado:** ✅ Múltiples ejercicios  
-Blockchain, Web Scraping, Análisis de Datos
-
-[Ver detalles →](python_basics/README.md)
+[Ver carpeta →](python_basics/)
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack
 
-**Data Science & ML:** pandas, numpy, scikit-learn, matplotlib  
-**Notebooks:** Jupyter, IPython  
-**Utilidades:** requests, BeautifulSoup4, kagglehub
+`pandas` `numpy` `scikit-learn` `requests` `BeautifulSoup4` `openpyxl` `zipfile` `Jupyter`
 
 ---
 
-## 📞 Contacto
-
-- **GitHub:** [@pabblo93](https://github.com/pabblo93)
-- **Versión:** 1.0.0 (Febrero 2026)
+**GitHub:** [@pabblo93](https://github.com/pabblo93)
