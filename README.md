@@ -13,6 +13,7 @@ Herramientas desarrolladas en un entorno profesional real para automatizar proce
 | `Descarga_Matriz_OMIE_SQ.py` | Descarga y construye la matriz mensual de precios cuartohorarios desde OMIE |
 | `expansion_precios_horario_cuartohorario.py` | Transforma precios horarios a cuartohorario tras el cambio regulatorio de oct. 2024 |
 | `calculo_prdemcad_liquidacion_c2.ipynb` | Calcula el PRDEMCAD completo desde ficheros C2 de REE con control de coherencia |
+| `convertir_h_a_qh.py` | Convierte curvas de energía horarias a cuartohorarias según el Anexo 11 de la PO 10.5 |
 
 [Ver carpeta →](energia_electrica/)
 

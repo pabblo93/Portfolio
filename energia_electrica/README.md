@@ -24,3 +24,10 @@ Transforma precios horarios exportados desde sistemas de liquidación a granular
 Calcula el precio de demanda por servicios de ajuste (PRDEMCAD) a partir de los ficheros de Liquidación Común (C2) de REE. Parsea el ZIP de liquidación, clasifica las variables horarias y cuartohorarias, aplica las fórmulas oficiales de cada componente (RT3, RT6, CT3, CFP, BALX, SECX, BS3, RAD3, EXD, IN3, IN7) e incluye un control de coherencia contra el PRDEMCAD oficial. El resultado se exporta a Excel listo para incorporar a la factura.
 
 **Resuelve:** el cálculo y auditoría de los servicios de ajuste en contratos indexados Passthrough, proceso anteriormente manual y propenso a errores.
+
+---
+
+### `convertir_h_a_qh.py`
+Convierte curvas de energía horarias a cuartohorarias aplicando el método oficial del Anexo 11 de la PO 10.5 (BOE-A-2025-6693). Utiliza interpolación lineal por tramos con normalización y redondeo conforme a la normativa, e incluye la curva plana (Eh/4) como referencia en el fichero de salida. Admite ficheros Excel (.xls/.xlsx) y CSV en formato SIPS, con detección automática de columnas y valores frontera configurables para los meses anterior y siguiente.
+
+**Resuelve:** la estimación cuartohoraria de consumos a partir de curvas horarias SIPS, proceso necesario para la facturación bajo el nuevo marco regulatorio cuartohorario.
